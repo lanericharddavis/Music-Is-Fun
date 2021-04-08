@@ -1,3 +1,5 @@
+import { ProxyState } from "../AppState.js";
+
 export default class Song {
   constructor(data) {
     this.title = data.trackName || data.title;
@@ -21,4 +23,5 @@ export default class Song {
 
         `;
   }
+
 }
